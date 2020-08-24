@@ -1,6 +1,6 @@
 {
     "version":"1.0",
     "description":"intsall all the applications for Rainbow's win10",
-    "url":"https://github.com/rainbowtp/Scoop_bucket/blob/master/hello.ps1",
-    "bin":"hello.ps1"
+    "url":"https://github.com/rainbowtp/Scoop_bucket/blob/master/install.ps1",
+    "bin":"install.ps1"
 }
