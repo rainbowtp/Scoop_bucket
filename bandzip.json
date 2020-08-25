@@ -3,5 +3,5 @@
     "homepage": "https://www.bandisoft.com/bandizip",
     "version": "7.09",
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-ALL.EXE?#/bandzip.7z",
-    "bin": "Bandzip.x64.exe"
+    "bin": "Bandizip.x64.exe"
 }
