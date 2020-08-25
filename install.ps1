@@ -1,1 +1,1 @@
-'echo "hello"'
+scoop install steam  captura
