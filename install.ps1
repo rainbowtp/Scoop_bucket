@@ -1,1 +1,1 @@
-scoop install steam  captura
+scoop install steam captura winrar cuda diskgenius everything-lite gamepp2 ZYplayer
