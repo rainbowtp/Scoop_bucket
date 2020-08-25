@@ -2,7 +2,7 @@
     "description": "解压软件",
     "homepage": "https://www.bandisoft.com/bandizip/",
     "version": "7.08",
-    "url": "https://www.bandisoft.com/bandizip/dl.php?online",
+    "url": "https://dl.bandisoft.com/bandizip.online/BANDIZIP-SETUP-ONLINE.EXE",
     "checkver":{
         "url":"https://www.bandisoft.com/bandizip/",
         "regex":""
