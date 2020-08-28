@@ -1,4 +1,5 @@
 # 系统
+
 - 进入系统时不要联网，直接使用Microsoft账户会更改注册表文件，改回来很麻烦
 
 - 数字激活
@@ -31,7 +32,7 @@
     保存并执行，然后重启电脑
     
 - 字体
-    
+  
     ```powershell
     git clone git@github.com:rainbowtp/fonts.git C:\Users\rainbow\Desktop\fonts
     ```
@@ -156,7 +157,7 @@ scoop update ; scoop install install ; install ; scoop uninstall install # go!
 
     
 
-4. 自定义代理，指令(wamp)
+4. 自定义指令(wamp)
 
     ```code $profile```
 
@@ -260,7 +261,7 @@ scoop config aria2-enabled false
 
 ## wegame
 
-下载lol 修改文件存储路径
+下载LOL文件存储路径
 
 ## sougoupinyin
 
@@ -270,9 +271,13 @@ scoop config aria2-enabled false
 
 登录账户
 
+修改文件路径到E盘
+
 ## TIM
 
 登录账户
+
+修改文件路径到E盘
 
 ## utools
 
@@ -300,16 +305,25 @@ scoop config aria2-enabled false
 
 ```YC34H-6WWDK-085MQ-JYPNX-NZRA2```
 
-# 深度学习环境-mxnet
+# DL环境
+
+在windows用户目录下打开`.condarc`文件并写入以下内容:
 
 ```powershell
-pip install mxnet-cu102 # for cuda
+auto_activate_base: false
+proxy_servers:
+    http: http://127.0.0.1:10809
+    https: https://127.0.0.1:10809
 ```
-## conda
-## cuda
 
+建立环境：
 
-# 镜像
-win7 
+```conda create -n gluon python=3.6 cudatoolkit=10.2 mkl ; conda activate gluon``` 
 
-# 系统美化细节
+```powershell
+pip install mxnet-cu102mkl==1.6.0 -f https://dist.mxnet.io/python d2lzh==1.0.0 jupyter==1.0.0 matplotlib==2.2.2 pandas==0.23.4  d2lzh==1.0.0 jupyter==1.0.0 matplotlib==2.2.2 pandas==0.23.4 --proxy=127.0.0.1:10809 # gluon
+```
+# web安全环境
+
+# php环境
+

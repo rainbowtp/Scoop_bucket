@@ -1,3 +1,1 @@
-scoop install 7zip bandizip dark innounp aria2  mactype-np python  steam captura nvidia-display-driver-np cuda diskgenius everything-lite  sudo git vscode miniconda3 potplayer quicklook php mysql apache nodejs office-365-apps-np docker translucenttb windows-terminal posh-git  oh-my-posh ImageGlass sublime-text typora ffmpeg spacesniffer youtube-dl; 
-
-scoop install ZYplayer gamepp2 dota2mods wegame sougouinput wechat TIM utools MSIDragonCenter VM15
+scoop install 7zip dark innounp bandizip aria2 sudo everything-lite quicklook mactype-np translucenttb spacesniffer office-365-apps-np ImageGlass ffmpeg potplayer captura youtube-dl etcher-cli diskgenius windows-terminal posh-git oh-my-posh python steam nvidia-display-driver-np cuda  vscode sublime-text typora miniconda3 php mysql apache nodejs docker ; scoop install ZYplayer gamepp2 dota2mods wegame sougouinput wechat TIM utools MSIDragonCenter VM15
