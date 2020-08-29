@@ -5,6 +5,8 @@
     "url": "http://dldir1.qq.com/tgc/wegame/mini/repo/WeGameMiniLoader.std.2.07.29.1736.exe#/dl.exe",
     "installer": {
         "args": [
+            "DESKTOP_SHORTCUT=0",
+            "STARTMENU_SHORTCUT=0",
             "EULAS_AGREED=1",
             "INSTALLDIR=\"\"$dir\"\"",
             "\""
