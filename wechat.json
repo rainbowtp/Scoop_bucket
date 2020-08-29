@@ -2,5 +2,6 @@
     "description": "weixin for PC",
     "homepage": "https://weixin.qq.com/",
     "version": "2.9.5",
-    "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.zip"
+    "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.zip",
+    "bin":"WeChat.exe"
 }

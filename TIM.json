@@ -2,5 +2,6 @@
     "description": "TIM for PC",
     "homepage": "https://tim.qq.com/",
     "version": "3.1.0",
-    "url": "https://dldir1.qq.com/qqfile/qq/TIM3.1.0/TIM3.1.0.21789.exe#/dl.zip"
+    "url": "https://dldir1.qq.com/qqfile/qq/TIM3.1.0/TIM3.1.0.21789.exe#/dl.zip",
+    "bin":"TIM.exe"
 }
